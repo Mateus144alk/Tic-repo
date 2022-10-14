@@ -1,0 +1,125 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+  font-size: 100%;
+  background: rgba(69, 179, 207, 0.801);
+  background: linear-gradient(90deg, rgb(74, 212, 247) 20%, rgb(65, 248, 77) 96%); 
+}
+.corpo-meta{
+  font-size: 100%;
+  background: rgb(69,180,207);
+  background: linear-gradient(90deg, rgb(176, 239, 255) 20%, rgb(132, 199, 136) 96%); 
+}
+.corpo-midia{
+  font-size: 100%;
+  background: rgb(69,180,207);
+  background: linear-gradient(90deg, rgb(176, 255, 206) 20%, rgb(240, 25, 211) 96%); 
+}
+.corpo-bio{
+  font-size: 100%;
+  background: rgb(69,180,207);
+  background: linear-gradient(90deg, rgb(247, 110, 110) 20%, rgb(228, 245, 74) 96%); 
+}
+.cabeca-todas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6px;
+  padding:10px;
+  margin-top: 30px;
+  font-weight: 400;
+  margin-left: 24px;
+}
+.principal-todas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6px;
+  padding:10px;
+  border-top: 1px solid rgb(0, 255, 21);
+  margin-bottom: 40px;
+  margin-top: 5px;
+  font-weight: 400;
+  margin-left: 24px;
+}
+.img-midia{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid rgb(0, 255, 21);
+  justify-content: space-around;
+  padding: 24px;
+}
+.fundo-todas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6px;
+  padding:10px;
+  border-top: 1px solid rgb(0, 255, 21);
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+.fundo{
+  font-size: 100%;
+  background: rgb(207, 69, 150);
+  background: linear-gradient(90deg, rgb(153, 230, 255) 20%, rgb(241, 14, 230) 96%); 
+}
+.cabe{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  
+}
+.cabe-menu{
+  display: flex;
+  gap: 250px;
+}
+.cabe-item{
+    display: flex;
+    order: 5;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+.resumo{
+  border-top: 1px solid rgb(255, 0, 0);
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+.texto-resumo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.paragrafos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+.final{
+  border-top: 1px solid rgb(0, 255, 21);
+}
+.fontes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+}
