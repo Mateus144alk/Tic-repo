@@ -5,6 +5,14 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.fundo-index{
+  display: flex;
+  order: 5;
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  justify-content: space-around;
+}
 body{
   font-size: 100%;
   background: rgba(69, 179, 207, 0.801);
